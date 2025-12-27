@@ -84,7 +84,7 @@ hr.line {
 .footer img {
     width: 30px;
     border: 1px solid white;
-    border-radius: 50%;
+    border-radius: 50%; /* Makes the image circular */
 }
 
 .span3 {
