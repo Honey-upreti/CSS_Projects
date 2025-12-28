@@ -93,7 +93,7 @@ hr.line {
     color: hsl(215, 51%, 70%);
     font-weight: 300;
     font-size: 15px;
-    margin-left: 1rem;
+    margin-left: 1rem; /* Adjust the margin as needed */
 }
 .span4 {
     color: hsl(0, 0%, 100%);
