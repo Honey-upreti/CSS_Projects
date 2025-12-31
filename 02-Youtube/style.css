@@ -20,7 +20,7 @@ h1 {
 }
 
 .hashtag-header span {
-    font-size: 24px;
+    font-size: 24px; /* Adjust the font size as needed */
 }
 
 .hashtag-header img {
