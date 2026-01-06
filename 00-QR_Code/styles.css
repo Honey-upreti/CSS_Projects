@@ -7,7 +7,7 @@ body {
 .card {
     padding: 1rem; /* Adjust the padding as needed */
     padding-bottom: 3.9rem;
-    position: absolute;
+    position: absolute; /* Position the card absolutely to center it on the page */
     margin: auto;
     inset: 0;
     width: 100%;
