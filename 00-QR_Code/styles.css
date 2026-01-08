@@ -9,7 +9,7 @@ body {
     padding-bottom: 3.9rem;
     position: absolute; /* Position the card absolutely to center it on the page */
     margin: auto; /* Center the card horizontally */
-    inset: 0;
+    inset: 0; /* Center the card vertically */
     width: 100%;
     max-width: 302px;
     height: 474px;
