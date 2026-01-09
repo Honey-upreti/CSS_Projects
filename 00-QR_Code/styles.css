@@ -24,7 +24,8 @@ img {
 }
 
 h2 {
-    color: hsl(218, 44%, 22%);
+    color: hsl(218, 44%, 22%); /* Adjust the color as needed */ 
+    font-size: 24px; /* Adjust the font size as needed */
 }
 
 p {
