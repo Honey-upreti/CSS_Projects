@@ -4,7 +4,7 @@ body {
 
 .hashtag-header {
     background-color: #065FD4;
-    background-image: url(/background.png);
+    background-image: url(/background.png); /* Replace with your actual image path */
     background-repeat: no-repeat;
     /* background-size: 260px; */
     background-position: 100%;
