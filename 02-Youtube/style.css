@@ -15,7 +15,7 @@ body {
 
 h1 {
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; /* Adjust the margin as needed */
     font-size: 4rem;
 }
 
