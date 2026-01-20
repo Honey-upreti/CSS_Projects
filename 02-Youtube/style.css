@@ -26,7 +26,7 @@ h1 {
 .hashtag-header img {
     width: 3rem;
     height: 3rem;
-    border-radius: 100%;
+    border-radius: 100%; /* Make the image circular */
     border: 3px solid white;
     vertical-align: middle;
 }
