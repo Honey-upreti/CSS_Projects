@@ -28,7 +28,7 @@ h1 {
     height: 3rem;
     border-radius: 100%; /* Make the image circular */
     border: 3px solid white;
-    vertical-align: middle;
+    vertical-align: middle; /* Align the image vertically with the text */
 }
 
 img + img {
