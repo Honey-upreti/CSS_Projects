@@ -31,6 +31,7 @@ h1 {
     vertical-align: middle; /* Align the image vertically with the text */
 }
 
+
 img + img {
     margin-left: -1rem; /* Adjust the margin as needed to create the overlapping effect */
     /* adjust images exclusively, not the first one */
