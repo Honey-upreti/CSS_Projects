@@ -4,8 +4,10 @@ body {
 
 .hashtag-header {
     background-color: #065FD4;
-    background-image: url(/background.png); /* Replace with your actual image path */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-image: url(/background.png);
+    /* Replace with your actual image path */
+    background-repeat: no-repeat;
+    /* Prevent the background image from repeating */
     /* background-size: 260px; */
     background-position: 100%;
     padding: 4rem;
@@ -16,27 +18,30 @@ body {
 
 h1 {
     margin: 0;
-    margin-bottom: 1rem; /* Adjust the margin as needed */
+    margin-bottom: 1rem;
+    /* Adjust the margin as needed */
     font-size: 4rem;
 }
 
 
 .hashtag-header span {
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px;
+    /* Adjust the font size as needed */
 }
 
 .hashtag-header img {
     width: 3rem;
     height: 3rem;
-    border-radius: 100%; /* Make the image circular */
+    border-radius: 100%;
+    /* Make the image circular */
     border: 3px solid white;
-    vertical-align: middle; /* Align the image vertically with the text */
+    vertical-align: middle;
+    /* Align the image vertically with the text */
 }
 
 
-img + img {
-    margin-left: -1rem; /* Adjust the margin as needed to create the overlapping effect */
+img+img {
+    margin-left: -1rem;
+    /* Adjust the margin as needed to create the overlapping effect */
     /* adjust images exclusively, not the first one */
 }
-
-
