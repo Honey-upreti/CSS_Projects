@@ -1,0 +1,32 @@
+body {
+    background-color: #d5e1ef;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.card {
+    padding: 1rem;
+    padding-bottom: 3.9rem;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    width: 100%;
+    max-width: 302px;
+    height: 474px;
+    box-shadow: 0px 10px 20px 0px rgb(0, 0, 0, 0.482);
+    background-color: white;
+    border-radius: 16px;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+h2 {
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-size: 18px;
+}
