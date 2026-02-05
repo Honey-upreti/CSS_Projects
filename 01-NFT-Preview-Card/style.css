@@ -1,0 +1,19 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    padding: 1.6rem;
+    position: relative;
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    height: 596px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+}
