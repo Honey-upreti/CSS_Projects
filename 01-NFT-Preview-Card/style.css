@@ -88,7 +88,7 @@ hr.line {
 }
 
 .span3 {
-    display:;
+    /* display: */
     align-items: flex-end;
     color: hsl(215, 51%, 70%);
     font-weight: 300;
