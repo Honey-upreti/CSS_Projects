@@ -6,8 +6,9 @@ body {
 .card {
     box-sizing: border-box;
     padding: 1.7rem;
-    position: absolute; /* position is relative to body */
-    top: 50%; 
+    position: absolute;
+    /* position is relative to body */
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: hsl(216, 50%, 16%);
@@ -36,8 +37,9 @@ p {
     font-weight: 300, 400, 600;
     margin-bottom: 1.5rem;
 }
+
 .etherum {
-    margin-top:0.2rem;
+    margin-top: 0.2rem;
     width: 11px;
 }
 
@@ -47,6 +49,7 @@ p {
     font-size: 18px;
     margin-left: 0.5rem;
 }
+
 .meta-row {
     display: flex;
     align-items: center;
@@ -70,34 +73,47 @@ p {
     font-size: 15px;
     margin-left: 0.5rem;
 }
+
 hr.line {
-    border: none; /* Removes the default border */
-    height: 1px; /* Sets the thickness */
-    background-color: #2F4159; /* Sets the color of the line */
-    margin: 25px 0; /* Optional: Adds space above and below the line */
+    border: none;
+    /* Removes the default border */
+    height: 1px;
+    /* Sets the thickness */
+    background-color: #2F4159;
+    /* Sets the color of the line */
+    margin: 25px 0;
+    /* Optional: Adds space above and below the line */
 }
+
 .footer {
-    display: flex; /* Use flexbox to align items horizontally */
+    display: flex;
+    /* Use flexbox to align items horizontally */
     align-items: center;
     margin-top: 1rem;
 }
+
 .footer img {
     width: 30px;
     border: 1px solid white;
-    border-radius: 50%; /* Makes the image circular */
+    border-radius: 50%;
+    /* Makes the image circular */
 }
 
 .span3 {
     display: flex;
     align-items: flex-end;
     color: hsl(215, 51%, 70%);
-    font-weight: 300; /*` Adjust the font weight as needed */
+    font-weight: 300;
+    /*` Adjust the font weight as needed */
     font-size: 15px;
-    margin-left: 1rem; /* Adjust the margin as needed */
+    margin-left: 1rem;
+    /* Adjust the margin as needed */
 }
+
 .span4 {
     color: hsl(0, 0%, 100%);
     font-weight: 600;
     font-size: 15px;
-    margin-left: 0.2rem; /* Adjust the margin as needed */ 
+    margin-left: 0.2rem;
+    /* Adjust the margin as needed */
 }
