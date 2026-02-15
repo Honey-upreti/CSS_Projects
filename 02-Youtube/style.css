@@ -32,7 +32,6 @@ h1 {
 }
 
 img + img {
-    margin-left: -1rem;
+    margin-left: -1rem; /* Adjust the margin as needed to create the overlapping effect */
+    /* adjust images exclusively, not the first one */
 }
-
-/*  */
