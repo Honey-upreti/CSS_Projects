@@ -41,10 +41,15 @@ h1 {
 }
 
 
-img+img {
+img {
     margin-left: -1rem;
     /* Adjust the margin as needed to create the overlapping effect */
     /* adjust images exclusively, not the first one */
 }
 
+.images-container {
+    display: flex;
+    justify-self: flex-end;
+    flex-direction: row-reverse;
+}
 
