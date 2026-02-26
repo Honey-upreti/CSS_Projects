@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: "Lexend Deca", sans-serif;
+    padding: 1rem;
+}
+
+.orange-card {
+    background-color: #ff9800;
+    color: white;
+    /* padding: 20px; */
+    /* border-radius: 10px; */
+}
+
+a {
+    color: inherit;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: "Big Shoulders", cursive;
+}
+
+.cyan-card {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    /* padding: 20px; */
+    /* border-radius: 10px; */
+}
+
+.green-card {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    /* padding: 20px; */
+    /* border-radius: 10px; */
+}
+
+.card {
+    padding: 3rem;
+}
