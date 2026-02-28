@@ -43,5 +43,7 @@ h2 {
 
 .card p {
     opacity: 0.75;
-    line-height: 30px;
+    /* font-size: 32px; */
+    line-height: 1.75;
+    /* line height of 1.75 times the font size. Hence we should always give line height in unitless value rather than in pixels or rem. */
 }
