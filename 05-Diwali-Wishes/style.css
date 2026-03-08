@@ -84,13 +84,26 @@ audio::-webkit-media-controls-panel {
     text-align: center;
 }
 
+.white-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .white-card {
     background-color: #fff;
-    max-width: 855px;
+    max-width: 500px;
+    padding: 4rem;
+    border-radius: 20px;
 }
 
 .white-card p {
     font-size: 2rem;
+}
+
+.little-girl {
+    max-width: 260px;
+    margin-left: -5rem;
 }
 
 @media (width < 840px) {
