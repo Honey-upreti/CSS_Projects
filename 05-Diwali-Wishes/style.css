@@ -9,7 +9,7 @@ body {
 }
 
 .hero-section {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* background-color: #F99501; */
     background-image: url(/Images/orange-backdrop.png);
     background-size: cover;
@@ -23,7 +23,7 @@ body {
 .hero-section p {
     font-size: 46px;
     /* font-weight: 600; */
-    max-width: 400px;
+    max-width: 550px;
 }
 
 audio::-webkit-media-controls-panel {
@@ -32,7 +32,7 @@ audio::-webkit-media-controls-panel {
 
 .audio-container {
     background-color: #FBD8A4;
-    max-width: 500px;
+    max-width: max-content;
     border-radius: 45px;
     display: flex;
     align-items: center;
@@ -42,11 +42,30 @@ audio::-webkit-media-controls-panel {
 }
 
 @media (width < 840px) {
-    .Deepak2 {
+    .Deepak2 , .music-icon , .soulful-music {
         display: none;
     }
     .Deepak1 {
         display: block;
         margin-left: auto;
+    }
+    .paragraph-and-audio{
+        margin-left: 1rem;
+    }
+    .jhalar {
+        margin-bottom: 0;
+    }
+    .hero-section p {
+        font-size: 32px;
+    }
+}
+
+@media (width < 540px) {
+    .hero-section p {
+        font-size: 28px;
+    }
+    .Deepak1 {
+        width: 100%;
+        max-width: 300px;
     }
 }
