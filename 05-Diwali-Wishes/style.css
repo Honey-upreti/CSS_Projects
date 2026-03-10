@@ -41,6 +41,58 @@ audio::-webkit-media-controls-panel {
     padding-left: 20px;
 }
 
+.lakshmi-ganesha-section {
+    background-color: #F99501;
+    padding-top: 1em;
+    padding-inline: 1rem;
+}
+
+.lakshmi-ganesha-image {
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+}
+
+.horizontal-div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 810px;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+}
+
+.horizontal-line {
+    height: 2px;
+    background-color: #FBD8A4;
+    width: 468px;
+}
+
+.circle {
+    flex-shrink: 0;
+    height: 10px;
+    width: 10px;
+    background-color: #FBD8A4;
+    border-radius: 100%;
+}
+
+.lakshmi-ganesha-section h2 {
+    font-family: "Style Script", cursive;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.white-card {
+    background-color: #fff;
+    max-width: 855px;
+}
+
+.white-card p {
+    font-size: 2rem;
+}
+
 @media (width < 840px) {
     .Deepak2 , .music-icon , .soulful-music {
         display: none;
@@ -68,4 +120,8 @@ audio::-webkit-media-controls-panel {
         width: 100%;
         max-width: 300px;
     }
+    .lakshmi-ganesha-section h2 {
+        font-size: 32px;
+    }
 }
+
