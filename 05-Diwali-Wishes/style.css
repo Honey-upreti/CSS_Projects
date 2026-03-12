@@ -43,7 +43,7 @@ audio::-webkit-media-controls-panel {
 
 .lakshmi-ganesha-section {
     background-color: #F99501;
-    padding-top: 1em;
+    padding-block: 1em;
     padding-inline: 1rem;
 }
 
@@ -88,6 +88,7 @@ audio::-webkit-media-controls-panel {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .white-card {
@@ -104,6 +105,34 @@ audio::-webkit-media-controls-panel {
 .little-girl {
     max-width: 260px;
     margin-left: -5rem;
+}
+
+.lakshmi-ganesha-card {
+    background-color: white;
+    border-radius: 24px;
+    padding: 4rem;
+    max-width: 722px;
+    display: flex;
+    margin-inline: auto;
+}
+
+.lakshmi-ganesha-card img {
+    width: 50%;
+}
+
+.thank-you-text {
+    max-width: 900px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.thank-you-text h2{
+    text-align: left;
+}
+
+.my-name {
+    text-align: right;
+    font-size: 14px;
 }
 
 @media (width < 840px) {
@@ -123,6 +152,23 @@ audio::-webkit-media-controls-panel {
     .hero-section p {
         font-size: 32px;
     }
+    .white-card p {
+        font-size: 1.25rem;
+    }
+
+    .white-card {
+        padding-block: 1rem;
+        padding-left: 2rem;
+    }
+
+    .little-girl {
+        max-width: 160px;
+    }
+
+    .lakshmi-ganesha-card {
+        max-width: 600px;
+        padding: 2rem;
+    }
 }
 
 @media (width < 540px) {
@@ -135,6 +181,9 @@ audio::-webkit-media-controls-panel {
     }
     .lakshmi-ganesha-section h2 {
         font-size: 32px;
+    }
+    .white-card p {
+        font-size: 1rem;
     }
 }
 
