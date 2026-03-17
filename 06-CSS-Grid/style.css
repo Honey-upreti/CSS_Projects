@@ -52,7 +52,7 @@ h1 {
     background-color: #BE3690;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 600px) { /*for tablets */
     .container {
         grid-template-columns: 1fr 1fr;
     }
