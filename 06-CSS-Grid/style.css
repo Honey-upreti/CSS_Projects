@@ -74,6 +74,7 @@ h1 {
     }
 }
 
+
 @media (min-width: 1000px) { /*for desktop*/
     .container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
