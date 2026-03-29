@@ -1,39 +1,84 @@
+.body {
+    background: radial-gradient(
+    circle, 
+    hsl(214, 17%, 85%) 0%,   /* Slightly darker than Grey 100 in the center */
+    hsl(214, 17%, 92%) 70%,  /* Your Grey 100 color */
+    hsl(214, 17%, 92%) 100%
+  );
+    min-height: 100vh;
+}
+
 .container {
-    min-height: 60vh;
+    max-width: 1200px;
     display: grid;
     grid-template-areas:
-     '1st 1st 2nd 3rd'
-    '4th 5th 5th 3rd'
+     'pehla pehla dusra teesra'
+    'chautha panchwa panchwa teesra'
     ;
     align-items: center;
-    margin: 5rem;
+    gap: 24px;
+    margin: 4rem;
 }
 
 .box-1 {
+    box-sizing: border-box;
     color: white;
     background-image: url(/testimonials-grid-section-main/images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position:  right 3rem top;
-    max-width: 620px;
-    padding: 30px;
-    grid-area: 1st;
+    /* max-width: 650px; */
+    padding: 25px;
+    border-radius: 10px;
+    grid-area: pehla;
     background-color: hsl(263, 55%, 52%);
 }
 
 .header {
+    font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
     display: flex;
     /* align-items: center; */
-    gap: 10px;
+    gap: 16px;
     margin-bottom: 20px;
 }
 
 .icon {
     width: 30px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 p {
-    font-size: 1rem;
-    font-weight: 10;
+    font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    opacity: 0.9;
 }
+
+h2 {
+     font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.box-2 {
+    box-sizing: border-box;
+    grid-area: dusra;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    max-width: 280px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.box-3 {
+    grid-area: teesra;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 220px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* grid items ki shadow hai jis wjh sey background clear white nahi hai. */
