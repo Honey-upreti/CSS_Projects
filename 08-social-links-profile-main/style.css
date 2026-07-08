@@ -5,10 +5,11 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #141414;
 }
 
 .big-container {
-  width: 300px;
+  width: 280px;
   background-color: hsl(0, 0%, 12%);
   padding: 25px;
   border-radius: 12px;
@@ -36,6 +37,8 @@ img {
 }
 
 .location {
+  font-weight: 400;
+  font-size: 12px;
     color: hsl(75,94%,57%);
     margin: 0;
     font-family: "Inter", sans-serif;
@@ -47,7 +50,7 @@ img {
     color: white;
     margin-top: 20px;
     font-family: "Inter", sans-serif;
-    font-weight: 160;
+    font-weight: 140;
 }
 
 .button-1 {
@@ -104,4 +107,9 @@ img {
     color: white;
     border-radius: 6px;
     margin: 10px;
+}
+
+.button:hover{
+  background-color: hsl(75, 94%, 57%);
+  color: black;
 }
