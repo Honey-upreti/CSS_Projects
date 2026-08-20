@@ -1,39 +1,70 @@
-body{
-    margin: 20px;
+body {
+  margin: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #F5F5F5;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    gap: 10px;
-    margin-inline: auto;
-    max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+  margin-inline: auto;
 }
 
 .box {
-    border-radius: 12px;
+  border-radius: 12px;
 }
 
 .box-1 {
-    background-color: hsl(256, 67%, 59%);
-    min-height: 200px;
-    padding: 20px;
-    font-size: 2rem;
-    font-weight: 800;
-    color: white;
-    align-content: center;
-    justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: hsl(256, 67%, 59%);
+  min-height: 200px;
+  padding: 36px;
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  line-height: 1;
 }
 
 .highlight1 {
-    color: #FECC65;
+  color: #fecc65;
 }
 
 .stars {
-    height: 20px;
+  margin-top: 20px;
+  height: 40px;
+  width: 250px;
+}
+
+.review {
+  display: block;
+  font-size: 20px;
+  font-weight: 200;
+}
+.box-2 {
+  background-color: white;
+  padding: 24px;
+  display: flex;
+  flex-direction: column; /* Stacks the icons and the future text */
+  gap: 15px; /* Adds space between the image and the text you'll add next */
+  font-size: 1.7rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.image-container img {
+    max-width: 100%;
+    display: flex;
+    justify-self: center;
 }
