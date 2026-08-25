@@ -114,10 +114,53 @@ body {
 }
 
 .footer {
-  font-weight: 300;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 22px;
   display: flex;
   text-align: center;
-  padding-inline: 20px;
+  padding-inline: 26px;
   padding-block: 10px 30px;
+}
+
+.box-5 {
+  background-color: hsl(256, 67%, 59%);
+  color: white;
+}
+.box-5 img {
+  max-width: 70%;
+  display: flex;
+  justify-self: center;
+  padding-block: 20px;
+  padding-right: 16px;
+}
+
+.grow-follower {
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
+  padding-inline: 80px;
+  line-height: 1;
+  padding-bottom: 25px;
+  font-weight: 500;
+}
+
+.box-6 {
+  background-color: white;
+  padding: 20px;
+}
+.box-6 img {
+  padding-top: 20px;
+  max-width: 50%;
+  display: flex;
+}
+
+.box-6 h1{
+  font-size: 2.5rem;
+  display: block;
+  margin: 0;
+  font-weight: 700;
+}
+
+.box-6 span{
+  font-size: 1.3rem;
 }
