@@ -79,6 +79,7 @@ body {
   line-height: 1;
   overflow: hidden;
   max-height: 240px;
+  margin-right: 10px;
 }
 .calendar img {
   max-width: 70%;
@@ -170,11 +171,11 @@ body {
   padding: 30px;
 }
 
-.box-7 img{
+.box-7 img {
   max-width: 70%;
 }
 
-.box-7 h1{
+.box-7 h1 {
   margin: 0 0 30px 0;
   line-height: 1;
 }
@@ -184,19 +185,180 @@ h1 span {
   font-style: italic;
 }
 
-.box-8{
+.box-8 {
   background-color: hsl(39, 100%, 71%);
   padding: 20px 30px;
   margin-bottom: 30px;
 }
-.box-8 img{
+.box-8 img {
   max-width: 70%;
 }
 
-.box-8 h1{
+.box-8 h1 {
   margin: 0 0 30px 0;
   line-height: 0.9;
   letter-spacing: -1px;
   font-size: 32px;
   font-weight: 600;
+}
+
+@media (min-width: 900px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1100px;
+    align-items: stretch;
+    justify-items: stretch;
+    grid-template-areas:
+      "box7 box1 box1 box4"
+      "box7 box2 box3 box4"
+      "box8 box6 box5 box5";
+    gap: 16px;
+  }
+
+  .box-1 {
+    grid-area: box1;
+    padding: 40px 20px 60px 20px;
+    font-size: 3.5rem;
+    margin-left: 10px;
+    max-width: 500px;
+    margin-right: 20px;
+  }
+  .stars {
+    width: 200px;
+    height: 35px;
+  }
+
+  .box-2 {
+    grid-area: box2;
+    letter-spacing: -2px;
+    font-size: 2rem;
+    overflow: hidden;
+    max-width: 230px;
+    max-height: 220px;
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+  .box-2 img {
+    max-width: 150%;
+    margin-left: 100px;
+  }
+
+  .box-2 span {
+    margin-right: 20px;
+    line-height: 26px;
+    font-size: 1.8rem;
+  }
+  .box-3 {
+    grid-area: box3;
+    letter-spacing: -0.6px;
+    font-size: 1.6rem;
+    overflow: hidden;
+    max-width: 230px;
+    max-height: 220px;
+    margin-top: 10px;
+    padding: 20px;
+  }
+
+  .box-3 img {
+    max-width: 100%;
+  }
+  .box-4 {
+    grid-area: box4;
+    margin-left: -20px;
+    max-width: 240px;
+    overflow: hidden;
+  }
+  .box-4 span {
+    margin-right: 20px;
+    padding-top: 40px;
+  }
+
+  .box-4 img {
+    max-width: 150%;
+    margin-left: 150px;
+  }
+
+  .footer {
+    text-align: start;
+    font-size: 18px;
+    margin-right: 20px;
+  }
+
+  .box-5 {
+    grid-area: box5;
+    max-height:220px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+  }
+.box-5 img {
+  max-width: 45%;
+  /* align-items: start; */
+  justify-self: start;
+  margin-left:26px ;
+}
+
+.grow-follower{
+  padding-inline: 0;
+  text-align: start;
+  font-size: 2.1rem;
+  margin-top: 20px;
+}
+
+  .box-6 {
+    grid-area: box6;
+    max-height: 220px;
+    max-width: 230px;
+    margin-left: 12px;
+  }
+  .box-6 img {
+    margin-top: 20px;
+    max-width: 80%;
+  }
+
+  .box-6 h1{
+    font-size: 3rem;
+  }
+.box-6 span {
+  font-size: 1rem;
+}
+  .box-7 {
+    grid-area: box7;
+    max-height: 360px;
+    max-width: 240px;
+    margin-left: 30px;
+  }
+  .box-7 h1 {
+    font-size: 2.2rem;
+    margin-top: 24px;
+    font-weight: 550;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+    margin-right: 16px;
+  }
+
+  .box-7 img {
+    max-width: 90%;
+    margin-left: 10px;
+  }
+  .box-8 {
+    margin-top: -180px;
+    grid-area: box8;
+    max-height: 400px;
+    max-width: 240px;
+    margin-left: 30px;
+  }
+  .box-8 h1 {
+    font-size: 2.3em;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-block: 2px;
+    margin-left: -5px;
+  }
+
+  .box-8 img {
+    margin-top: 56px;
+    max-width: 110%;
+  }
 }
